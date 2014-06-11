@@ -1,0 +1,14 @@
+<template name="classroomView">
+    Classroom View
+        <div id='approvedResponseContainer'>
+        <div id='chatTitle'>
+          Student Responses
+        </div>
+        <div id='approvedResponseHistory'>
+          {{#each lines}}
+            <b>{{this.username}}</b>: {{this.responseContent}}<br>
+          {{/each}}
+        </div>
+
+    </div>
+</template>

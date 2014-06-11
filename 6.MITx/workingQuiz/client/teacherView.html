@@ -1,0 +1,16 @@
+<template name="teacherView">
+    Teacher View
+    <div id='responseContainer'>
+        <div id='chatTitle'>
+          Student Responses
+        </div>
+        <div id='responseHistory'>
+          {{#each lines}}
+            <b>{{this.username}}</b>: {{this.responseContent}}<br>
+          {{/each}}
+        </div>
+        <button id='sendChat'>
+          Select
+        </button>
+    </div>
+</template>

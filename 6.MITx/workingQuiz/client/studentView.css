@@ -1,0 +1,48 @@
+/* CSS declarations go here */
+#submitContainer{
+/*  background-color: blue;*/
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#responseContainer{
+/*  background-color: blue;*/
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+#approvedResponseContainer{
+/*  background-color: blue;*/
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+#chatTitle{
+/*  background-color: lightblue;*/
+  padding: 5px;
+/*  border-bottom: 1px solid black;*/
+}
+
+#responseHistory{
+  height: 330px;
+  overflow-y: auto;
+  margin: 5px;
+}
+
+#selectedResponseHistory{
+  height: 330px;
+  overflow-y: auto;
+  margin: 5px;
+}
+
+#sendChat{
+  width: 50px;
+  height: 30px;
+}
+
+#userChatTextarea{
+  width: 220px;
+}
